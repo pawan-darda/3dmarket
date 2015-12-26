@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Autodesk : Pronto</title>
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <link rel="shortcut icon" href="/static/flat-ui/images/favicon.ico">
+        <link rel="stylesheet" href="/static/flat-ui/bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="/static/flat-ui/css/flat-ui.css">
+        <!-- Using only with Flat-UI (free)-->
+        <link rel="stylesheet" href="/static/common-files/css/icon-font.css">
+        <!-- end -->
+        <link rel="stylesheet" href="/static/common-files/css/animations.css">
+        <link rel="stylesheet" href="/static/css/style.css">
+        <link rel="stylesheet" href="/static/css/market.css">
+    </head>
+
+    <body>
+
+        <div class="page-wrapper">
+            <!-- header-23 -->
+            <header class="header-23">
+                <div class="mask">&nbsp;</div>
+                <div class="popup-video">
+                    <iframe id="pPlayer"
+                    src="http://player.vimeo.com/video/80282064?title=0&amp;byline=0&amp;portrait=0&amp;api=1&amp;player_id=pPlayer"
+                    frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="navbar col-sm-12" role="navigation">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle"></button>
+                                <a class="brand" href="#">Autodesk Pronto</a>
+                            </div>
+                            <div class="navbar-collapse collapse">
+                                <ul class="nav pull-right">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#blog">Stack</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                                <ul class="subnav">
+                                    <li><a href="#">Privacy</a></li>
+                                    <li><a href="#">Terms</a></li>
+                                    <li><a href="#">Advertise</a></li>
+                                    <li><a href="#">Affiliates</a></li>
+                                    <li><a href="#">Newsletter</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <section class="header-23-sub bg-midnight-blue">
+                <div class="background" id="bgVideo">&nbsp;</div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="hero-unit" style="padding-top:0px; padding-bottom:20px">
+                               <p> <h1> design.  create.  sell.  </h1> </p>
+
+                            </div>
+                            <div class="hero-unit" style="padding-bottom:40px">
+
+                                <p> <strong> Use Pronto to create your online 3D store </strong> </p>
+
+                            </div>
+                        </div>
+
+                            <div class="col-sm-10 col-sm-offset-1 ">
+                                <div class="signup-form">
+                                    <form method="POST" action="/createshop"> {% csrf_token %}
+                                        <div class="clearfix">
+                                            <input  type="text" class="form-control" placeholder="User Name" name="user_name">
+                                            <input  type="text" class="form-control" placeholder="Store Name" name="store_name">
+
+                                            <input  type="password" class="form-control" placeholder="Password" name="password">
+                                            <button class="btn btn-primary">Create Shop</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- content-33  -->
+            <section class="content-33">
+                <div class="container">
+                    <p class="lead">
+                       Run your store online, in-person, and on the go. Create your online presence in minutes and start earning from day one.
+                    </p>
+                </div>
+            </section>
+
+
+            <!-- content-23  -->
+            <section class="content-23 custom-bg">
+                <div class="holder v-center">
+                    <div>
+                        <div class="container">
+                            <div class="hero-unit hero-unit-bordered">
+                                <h1>Built for Future</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="control-btn fui-arrow-down" href="#"> </a>
+            </section>
+
+            <!-- content-32  -->
+            <section class="content-32">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-8 col-sm-offset-2">
+                            <h3>Highlights</h3>
+                            <p class="lead">
+                                The most important parts of the Pronto is that is enables you to create a web presence in minutes and allows you to be more creative in your designs and forget about all other things.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="features">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <h6>Fully hosted shopping cart </h6>
+                               Pronto provides a secure shopping cart that lets you instantly accept credit cards.
+                            </div>
+                            <div class="col-sm-4 col-sm-offset-1">
+                                <h6>Total control of design</h6>
+                                Add upto over 1000 products or create a custom-designed theme for your store.
+                            </div>
+                            <div class="col-sm-3 col-sm-offset-1">
+                                <h6>State-of-the-art security</h6>
+                                To get started, you select the desired sample and base the entire website on it.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!-- content-36  -->
+            <section id="blog" class="content-36">
+                <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12"><h2>Technology Stack</h2></div>
+                            <div class="col-sm-6"><h2>Autodesk Products</h2> </div>
+                            <div class="col-sm-6"><h2>Open Source</h2> </div>
+                            <div class="col-sm-4 col-sm-offset-1">
+                                <h3 style="color:white; text-align:left;"><li> OSS API </li> </h3><br>
+                                <h3 style="color:white; text-align:left;"><li> Viewing Service API </li></h3><br>
+                                <h3 style="color:white; text-align:left;"><li> Developer Portal </li></h3><br>
+                                <h3 style="color:white; text-align:left;"><li> Oxygen (Tried) </li></h3>
+                            </div>
+                            <div class="col-sm-4 col-sm-offset-3">
+                                <h3 style="color:white; text-align:left;"><li> Python/Django </li> </h3><br>
+                                <h3 style="color:white; text-align:left;"><li> HTML5/Canvas  </li></h3><br>
+                                <h3 style="color:white; text-align:left;"><li> Bootstrap </li></h3><br>
+                                <h3 style="color:white; text-align:left; "><li> Javascript </li></h3>
+                            </div>
+                        </div>
+
+                </div>
+            </section>
+        </div>
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="/static/common-files/js/jquery-1.10.2.min.js"></script>l
+        <script src="/static/flat-ui/js/bootstrap.min.js"></script>
+        <script src="/static/common-files/js/modernizr.custom.js"></script>
+        <script src="/static/common-files/js/page-transitions.js"></script>
+        <script src="/static/common-files/js/jquery.scrollTo-1.4.3.1-min.js"></script>
+        <script src="/static/common-files/js/startup-kit.js"></script>
+        <script src="/static/common-files/js/froogaloop.min.js"></script>
+        <script src="/static/common-files/js/jquery.parallax.min.js"></script>
+        <script src="/static/common-files/js/jquery.backgroundvideo.min.js"></script>
+        <script src="/static/js/script.js"></script>
+    </body>
+</html>
